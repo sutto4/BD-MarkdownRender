@@ -1,0 +1,22 @@
+{
+  "name": "markdown-render",
+  "version": "0.2.2",
+  "private": true,
+  "description": "BetterDiscord Markdown attachment renderer",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node tests/plugin.cjs"
+  },
+  "engines": {
+    "node": ">=22.17.0"
+  },
+  "dependencies": {
+    "dompurify": "3.4.16",
+    "marked": "18.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "jsdom": "29.1.1"
+  }
+}
